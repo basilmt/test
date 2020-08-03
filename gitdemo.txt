@@ -65,5 +65,3 @@ git push orgin master
 //deleting branch
 git push orgin --delete Branch_Name   //delete branch_name in remote
 git branch -d Branch_Name
-
-
