@@ -1,8 +1,5 @@
 hi eve
 how r you
-<<<<<<< HEAD
 probably some bug fixes
-=======
 added a new function
 some more extra fn
->>>>>>> extra_function
