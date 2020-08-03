@@ -1,0 +1,47 @@
+git init
+git add
+git commit
+
+git remote add origin URL
+
+git push origin master
+
+git pull origin master
+
+git status
+git diff
+
+git commit -m "fix"
+
+git log
+git log -p
+// Q to exit log
+
+
+//Now Something Advance
+
+do git pull first before push if
+you are expecting collaberators
+
+#branching
+
+git branch branch_name
+git branch   //to list branches
+             //star in working branch
+
+git checkout branch_name  //to change working branch
+
+git add,commit
+git push orgin branch_name
+
+git checkout master
+git pull orgin master
+git branch --merged  //merged branches till now
+git merge branch_name
+git push orgin master
+
+//deleting branch
+git branch -d branch_name
+git push orgin --delete branch_name   //delete branch_name in remote
+
+
