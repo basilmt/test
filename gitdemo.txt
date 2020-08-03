@@ -1,47 +1,69 @@
 git init
-git add
-git commit
+//add changes to commit
+git add File_name
+//for adding all changes
+git add -A     ||    git add .
+//commit before push
+git commit -m "message"
 
+//origin is a naming convention
+//used by most
+
+//conecting to remote server
 git remote add origin URL
-
+//pushing to server
 git push origin master
 
+//retreiving data from server
 git pull origin master
 
+//weather added to git add or not
 git status
+//changes made line by line
 git diff
 
+//told you so
 git commit -m "fix"
 
+//log of all commits
+//includes author, time and others
 git log
+//same as log,includes changes too
 git log -p
 // Q to exit log
 
 
 //Now Something Advance
-
-do git pull first before push if
-you are expecting collaberators
+//not too much
 
 #branching
 
-git branch branch_name
+//do git pull first before push if
+//you are expecting collaberators
+
+
+git branch Branch_Name
 git branch   //to list branches
-             //star in working branch
+             //asterisk(*) in working branch
 
-git checkout branch_name  //to change working branch
+git checkout Branch_Name  //to change working branch
 
-git add,commit
-git push orgin branch_name
+git add,commit  //same as above
 
+//Remember below comment
+//Its not master,its Branch_Name
+git push orgin Branch_Name
+
+//committing changes in branch to master
 git checkout master
-git pull orgin master
+git pull orgin master  //to get changes in master,Like collaberators
+
 git branch --merged  //merged branches till now
-git merge branch_name
+git merge Branch_Name
 git push orgin master
 
 //deleting branch
-git branch -d branch_name
-git push orgin --delete branch_name   //delete branch_name in remote
+git push orgin --delete Branch_Name   //delete branch_name in remote
+git branch -d Branch_Name
 
 
